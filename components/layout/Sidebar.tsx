@@ -3,13 +3,9 @@ import { BiLogOut } from "react-icons/bi";
 import { BsHouseFill, BsBellFill } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
 import useCurrentUser from "../../hooks/useCurrentUser";
-// import SidebarItem from './SidebarItem';
-// import SidebarItem from '@/components/layout/SidebarItem';
-// import SidebarLogo from '@/components/layout/SidebarLogo';
-// import SidebarTweetButton from '@/components/layout/SidebarTweetButton';
-import SidebarItem from "./SidebarItem";
-import SidebarLogo from "./SidebarLogo";
-import SidebarTweetButton from "./SidebarTweetButton";
+import SidebarItem from "@/components/layout/SidebarItem";
+import SidebarLogo from "@/components/layout/SidebarLogo";
+import SidebarTweetButton from "@/components/layout/SidebarTweetButton";
 
 const Sidebar = () => {
   const { data: currentUser } = useCurrentUser();
