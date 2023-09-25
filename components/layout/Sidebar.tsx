@@ -6,9 +6,6 @@ import useCurrentUser from "../../hooks/useCurrentUser";
 import SidebarItem from "./SidebarItem";
 import SidebarLogo from "./SidebarLogo";
 import SidebarTweetButton from "./SidebarTweetButton";
-// import SidebarItem from "@/components/layout/SidebarItem";
-// import SidebarLogo from "@/components/layout/SidebarLogo";
-// import SidebarTweetButton from "@/components/layout/SidebarTweetButton";
 
 const Sidebar = () => {
   const { data: currentUser } = useCurrentUser();
