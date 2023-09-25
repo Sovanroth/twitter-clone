@@ -20,6 +20,7 @@
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.1",
     "lodash": "^4.17.21",
+    "module-name": "^0.0.1-security",
     "next": "^13.5.2",
     "next-auth": "^4.21.1",
     "react": "^18.2.0",
